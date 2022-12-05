@@ -1,6 +1,6 @@
 {
   "name": "@ngoakor12/date-time-utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "date and time utils extending and or wrapping existing date and time methods",
   "main": "index.js",
   "scripts": {
