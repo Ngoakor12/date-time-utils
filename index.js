@@ -69,6 +69,13 @@ function convertISOStringToDate(date) {
   }
 }
 
+function dayMonthYear(dateString) {
+  if (dateString) {
+    const [year, month, day] = dateString.split("-");
+    return `${month}-${day}-${year}`;
+  }
+}
+
 module.exports = {
   createUCTDate,
   convertUTCDateToLocalDate,
@@ -79,4 +86,5 @@ module.exports = {
   cleanDate,
   getYearMonthDayFromDate,
   convertISOStringToDate,
+  dayMonthYear,
 };
